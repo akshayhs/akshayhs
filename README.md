@@ -10,7 +10,7 @@ Akshay, aged 27, is an undergraduate in Computer Applications with a specialized
 
 *   🌍  I'm based in Bangalore, Karnataka, India
 *   ✉️  You can contact me at [akshayhs24@gmail.com](mailto:akshayhs24@gmail.com)
-*   🧠  I'm learning TypeScript and Redis
+*   🧠  I'm currently Next.js and Redis
 *   ⚡  He loves reading about finance and technology (sometimes both of them combined) and is an avid credit card user.### Skills 
 <p align="left">
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
