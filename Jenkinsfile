@@ -1,17 +1,9 @@
 pipeline {
-	agent any
+	agent {
+		label 'ubuntu/jammy64'
+	}
 
 	stages {
-		stage('Install git if it does not exist') {
-			steps {
-				script {
-					/* Ensure git exists in the operating system. If it does not, install it. */
-					echo 'Installing Git on the server.'
-					sh 'sudo apt install -y git'
-					echo "Git was successfully installed. The current git version is ${sh(script: 'git --version', returnStdout: true).trim()}"
-				}
-			}
-		}
 		stage('Clone the repository from remote') {
 			steps {
 				script {
@@ -31,7 +23,7 @@ pipeline {
 					/* Download the setup file from the nodesource repo */
 					sh 'curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -'
 					/* Install Node.js */
-					sh 'sudo apt install -y nodejs'
+					sh 'apt install -y nodejs'
 					echo 'Node.js has been installed.'					
 					echo "Currently available version for Node is ${sh(script: 'node -v', returnStdout: true).trim()}"
 					echo "Currently available version for Node Package Manager(NPM) is ${sh(script: 'npm -v', returnStdout: true).trim()}"
