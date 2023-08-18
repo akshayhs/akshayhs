@@ -9,7 +9,7 @@ Akshay, aged 27, is an undergraduate in Computer Applications with a specialized
 **He is currently open for new opportunities and you can contact him if you are looking to hire him. Thank you for checking me out, here on GitHub.**
 
 *   🌍  I'm based in Bangalore, Karnataka, India
-*   ✉️  You can contact me at [akshayhs24@gmail.com](mailto:akshayhs24@gmail.com)
+*   ✉️  You can contact me at [akshayhs@duck.com](mailto:akshayhs@duck.com)
 *   🧠  I'm currently Next.js and Redis
 *   ⚡  He loves reading about finance and technology (sometimes both of them combined) and is an avid credit card user.### Skills 
 <p align="left">
